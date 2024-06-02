@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from "./Navbar";
-import Main from "./Main";
-import Skill from "./Skill";
-import Language from "./Language";
+import Navbar from "./Tags/Navbar";
+import Main from "./Tags/Main";
+import Skill from "./Tags/Skill";
+import Language from "./Tags/Language";
 import Education from "./Education";
-import Testimonial from "./Testimonial";
+
 import Contact from "./Contact";
 import End from "./End";
+import Tile from "./Components/Tile";
+import Projects from "./Projects";
+import Calendar from "./Calendar";
 
 // function App() {
 //   return (
@@ -36,12 +39,17 @@ function App() {
       <div className="App">
         <Navbar></Navbar>
         <Main></Main>
-        <Skill></Skill>
+        <Skill id = {"s"}></Skill>
         <Language></Language>
+
         <Education></Education>
-        <Testimonial></Testimonial>
+    <Calendar></Calendar>
+
         <Contact></Contact>
+
+
         <End></End>
+
       </div>
   )
 }

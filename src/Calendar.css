@@ -1,0 +1,10 @@
+.calendar{
+    background-color: ivory;
+    display: flex;
+}
+.cal h2{
+    color: gold;
+    text-decoration: underline;
+    font-size: 39px;
+    font-family: "Agency FB";
+}

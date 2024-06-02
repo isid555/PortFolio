@@ -1,0 +1,10 @@
+.end_text{
+    /*margin: 10px;*/
+    padding: 20px;
+    background-color: #EAEAEA;
+    height: 25vh;
+    display: grid;
+    place-items: center;
+    color: #989898;
+    font-family: Papyrus;
+}

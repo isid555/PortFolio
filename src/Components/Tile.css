@@ -1,0 +1,30 @@
+.tile{
+    margin: 5px;
+    padding: 10px;
+    border: 4px  outset #19221c;
+
+}
+.img{
+
+    height: 100px;
+    width: 98px;
+}
+.heading{
+    font-family: "Yu Gothic UI Semilight";
+    font-size : medium;
+    font-weight: 2000;
+    color: #19221c;
+
+}
+
+.tile:hover{
+    /*margin: 60px;*/
+    /*padding: 10px;*/
+    background-color: gold;
+    /*box-shadow: #3a5044 3px 3px  3px 3px  ;*/
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px #19221c;
+
+}

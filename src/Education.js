@@ -1,19 +1,29 @@
+import "./Education.css"
+
 function Education() {
     return(
         <div class="education">
-            <div class="edu_para">
-                <h3>My education</h3>
-                <div class="edu_img">
-                    <img src="https://toppng.com/uploads/preview/background-education-logo-for-education-a-11563058486g8lcjy4wvq.png" alt="edu_img"></img>
+            <div className="edu_para">
+                <h1 style={{textDecoration : "underline" ,fontFamily :"Agency FB" , fontSize:"45px"}}>My Education</h1>
+                <div className="degree-container">
+                    <div className="degree">
+                        <h2>Bachelor's Degree</h2>
+                        <p>BITS PILANI ,BSc in Computer Science(2023-2026)</p>
+                    </div>
+                    <div className="degree">
+                        <h2>Scaler School of Technology</h2>
+                        <p>UG in Computer Science(2023-2027)</p>
+                    </div>
                 </div>
-                <h4>
-                    Scaler School of Technology
-                </h4>
-                <h5>Bachelor of Computer Science(2023-2026)</h5>
+            </div>
 
+
+            <div className="edu_img">
+                <img src="https://cdn.dribbble.com/users/2221077/screenshots/14110896/media/f6bd29562775b724409df2c851c5b49c.gif" alt=""/>
             </div>
 
         </div>
     )
 }
+
 export default Education;

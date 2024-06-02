@@ -1,0 +1,43 @@
+.skill{
+    display: flex;
+    height: 50vh;
+
+
+}
+.skill_para{
+    display: grid;
+    place-items: center;
+    flex: 1;
+    width: 50vw;
+    padding: 20px;
+    background-color: ivory;
+    color: #ffb820;
+    text-align: start;
+}
+.skill_para h2{
+    text-decoration: underline;
+    font-size: 60px;
+    font-family: "Agency FB";
+    color: gold;
+}
+.skill_img{
+    flex: 0.31;
+    background-color: yellow;
+    width: 100vw;
+}
+.skill_measure{
+    flex: 0.7;
+    width: 100vw;
+    background-color:#19221c;
+    padding: 10px;
+}
+.skill_measure h3{
+    text-decoration: underline;
+    color: ivory;
+    font-size: 29px;
+font-family: "Agency FB";
+}
+.skill_img img{
+    height: 100%;
+    width: 100%;
+}

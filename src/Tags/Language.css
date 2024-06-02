@@ -1,0 +1,15 @@
+.languages{
+    display: grid;
+    flex: 1;
+    gap: 10px;
+    /*place-items: center;*/
+    background-color: ivory;
+    margin: 8px;
+    padding: 15px;
+}
+.languages h2{
+    text-decoration: underline;
+    font-size: 60px;
+    font-family: "Agency FB";
+    color: gold;
+}

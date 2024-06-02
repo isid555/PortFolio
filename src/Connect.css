@@ -1,0 +1,19 @@
+.connect{
+    display: flex;
+}
+.ct_img img{
+height: 3vh;
+    width: 2vw;
+}
+.ct_text a{
+font-size: 30px;
+    padding: 20px;
+   font-family: "Gill Sans MT Ext Condensed Bold";
+    text-decoration: none;
+    color: gold;
+}
+.ct_text a:hover{
+    /*text-decoration: underline;*/
+    color: ivory;
+
+}

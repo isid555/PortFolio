@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    background-color: #0E0E0E;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Agency FB";
+}
+.main_img{
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    /*border: 1px solid #F1C859;*/
+    background-color: #19221C;
+}
+.main_para{
+    color: #ffc907;
+    /*font-family: "Bookman Old Style";*/
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    /*background-image: url("https://spin.atomicobject.com/wp-content/uploads/giphy-3.gif");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*opacity: 0.09;*/
+    font-size: 25px;
+}
+.main_img img{
+    height: 100%;
+    width: 100%;
+}
+.sid{
+    color: white;
+    /*text-decoration: underline ;*/
+    font-family:"High Tower Text";
+}

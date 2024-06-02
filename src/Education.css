@@ -1,0 +1,66 @@
+.education{
+    display: flex;
+}
+.edu_para{
+width: 50vw;
+    height: 50vh;
+    background-color: #19221c;
+    color: darkgoldenrod;
+
+
+}
+.edu_img{
+width: 50vw;
+    height: 50vh;
+    /*background-color: black;*/
+}
+.edu_img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+.education-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+.education-container h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.degree-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.degree {
+    background-color: ivory;
+    color: gold;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.degree h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.degree p {
+    font-size: 1em;
+}
+
+
